@@ -1,0 +1,66 @@
+{
+  "rule_version": "business-rules-v1.1.0",
+  "rounding": "ROUND_HALF_UP",
+  "decimal_places": 2,
+  "hotspot": {
+    "weights": {
+      "likes": 0.20,
+      "favorites": 0.25,
+      "comments": 0.10,
+      "engagement_rate": 0.15,
+      "recency": 0.10,
+      "illustration_relevance": 0.20
+    },
+    "recency_window_days": 30,
+    "business_relevance_min": 0.50,
+    "levels": {"hot": 70, "watch": 50}
+  },
+  "abnormal_growth": {
+    "minimum_interval_hours": 6,
+    "maximum_interval_hours": 48,
+    "minimum_weighted_engagement": 500,
+    "minimum_growth_rate": 0.50,
+    "minimum_velocity_per_hour": 100,
+    "small_base_floor": 100,
+    "engagement_weights": {"likes": 1, "favorites": 2, "comments": 1.5},
+    "suspicious_growth_rate": 5,
+    "suspicious_comment_share_max": 0.001
+  },
+  "opportunity": {
+    "minimum_profile_match": 50,
+    "require_known_medium_when_profile_restricts_medium": true,
+    "weights": {
+      "profile_match": 0.25,
+      "capacity_fit": 0.15,
+      "price_fit": 0.15,
+      "demand_signal": 0.15,
+      "competition_attractiveness": 0.10,
+      "trend_relevance": 0.15,
+      "evidence_completeness": 0.05
+    },
+    "levels": {"recommended": 75, "test": 60, "observe": 40},
+    "confidence": {"high": 85, "medium": 65},
+    "demand_caps": {"sales_count": 40, "favorite_count": 80},
+    "competition_count_cap": 30,
+    "category_effort_hours": {
+      "动物大头挂件": 12,
+      "带场景手绘插图": 12,
+      "头像": 8,
+      "角色设计": 24,
+      "商业插画": 30,
+      "内容配图": 16,
+      "绘本": 20,
+      "表情包": 14,
+      "像素画": 10,
+      "半身像": 12
+    },
+    "business_aliases": {
+      "宠物头像": ["头像", "宠物"],
+      "动物大头挂件": ["实体挂件", "动物大头挂件"],
+      "带场景手绘插图": ["传统手绘插图", "带场景手绘插图"],
+      "低价头像": ["头像"],
+      "包装": ["商业插画", "包装"],
+      "半身像": ["头像", "半身像"]
+    }
+  }
+}

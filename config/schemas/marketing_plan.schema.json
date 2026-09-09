@@ -1,0 +1,18 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","title":"MarketingPlan","type":"object","additionalProperties":false,
+  "required":["schema_version","task","status","candidate_id","account_strategy","content_package","risks","missing_information","citations"],
+  "properties":{
+    "schema_version":{"const":"1.0.0"},"task":{"const":"marketing_plan"},
+    "status":{"enum":["ready","insufficient_evidence","conflict","blocked"]},"candidate_id":{"type":"string","minLength":1},
+    "account_strategy":{"type":"string","minLength":1,"maxLength":300,"pattern":"^[^0-9０-９]*$"},
+    "content_package":{"type":"object","additionalProperties":false,"required":["title_options","hook","body","visual_composition","image_sequence","video_script"],"properties":{
+      "title_options":{"type":"array","minItems":1,"maxItems":3,"items":{"type":"string","maxLength":40,"pattern":"^[^0-9０-９]*$"}},
+      "hook":{"type":"string","maxLength":80,"pattern":"^[^0-9０-９]*$"},"body":{"type":"string","maxLength":800,"pattern":"^[^0-9０-９]*$"},
+      "visual_composition":{"type":"string","maxLength":300,"pattern":"^[^0-9０-９]*$"},
+      "image_sequence":{"type":"array","minItems":1,"maxItems":6,"items":{"type":"string","maxLength":100,"pattern":"^[^0-9０-９]*$"}},
+      "video_script":{"type":"array","minItems":1,"maxItems":8,"items":{"type":"string","maxLength":140,"pattern":"^[^0-9０-９]*$"}}}},
+    "risks":{"type":"array","maxItems":5,"items":{"type":"string","maxLength":120,"pattern":"^[^0-9０-９]*$"}},
+    "missing_information":{"type":"array","maxItems":5,"items":{"type":"string","maxLength":100,"pattern":"^[^0-9０-９]*$"}},
+    "citations":{"type":"array","uniqueItems":true,"items":{"type":"string","minLength":1}}
+  }
+}

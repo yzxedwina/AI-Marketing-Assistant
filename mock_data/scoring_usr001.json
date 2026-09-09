@@ -1,0 +1,836 @@
+{
+  "abnormal_growth": [
+    {
+      "post_id": "XHS-001",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-002",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-003",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-004",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-005",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-006",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-007",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-008",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-009",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-010",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-011",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    },
+    {
+      "post_id": "XHS-012",
+      "reason": "至少需要两次互动快照",
+      "rule_version": "business-rules-v1.0.0",
+      "status": "insufficient_history"
+    }
+  ],
+  "data_mode": "mock",
+  "hotspots": [
+    {
+      "business_status": "hot",
+      "components": {
+        "comments": 72.73,
+        "engagement_rate": 81.82,
+        "favorites": 72.73,
+        "illustration_relevance": 90.0,
+        "likes": 72.73,
+        "recency": 96.67
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "hot",
+      "hotspot_score": 79.94,
+      "post_id": "XHS-009",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "watch",
+      "components": {
+        "comments": 54.55,
+        "engagement_rate": 36.36,
+        "favorites": 63.64,
+        "illustration_relevance": 94.0,
+        "likes": 63.64,
+        "recency": 96.67
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "watch",
+      "hotspot_score": 68.01,
+      "post_id": "XHS-001",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "mass_hot_low_relevance",
+      "components": {
+        "comments": 100.0,
+        "engagement_rate": 9.09,
+        "favorites": 90.91,
+        "illustration_relevance": 28.0,
+        "likes": 90.91,
+        "recency": 96.67
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "watch",
+      "hotspot_score": 67.54,
+      "post_id": "XHS-004",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "watch",
+      "components": {
+        "comments": 81.82,
+        "engagement_rate": 18.18,
+        "favorites": 81.82,
+        "illustration_relevance": 55.0,
+        "likes": 81.82,
+        "recency": 83.33
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "watch",
+      "hotspot_score": 67.06,
+      "post_id": "XHS-007",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "mass_hot_low_relevance",
+      "components": {
+        "comments": 90.91,
+        "engagement_rate": 0.0,
+        "favorites": 100.0,
+        "illustration_relevance": 12.0,
+        "likes": 100.0,
+        "recency": 96.67
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "watch",
+      "hotspot_score": 66.16,
+      "post_id": "XHS-010",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "watch",
+      "components": {
+        "comments": 63.64,
+        "engagement_rate": 90.91,
+        "favorites": 54.55,
+        "illustration_relevance": 80.0,
+        "likes": 27.27,
+        "recency": 76.67
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "watch",
+      "hotspot_score": 62.76,
+      "post_id": "XHS-011",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "watch",
+      "components": {
+        "comments": 45.45,
+        "engagement_rate": 63.64,
+        "favorites": 45.45,
+        "illustration_relevance": 92.0,
+        "likes": 45.45,
+        "recency": 86.67
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "watch",
+      "hotspot_score": 61.61,
+      "post_id": "XHS-005",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "watch",
+      "components": {
+        "comments": 18.18,
+        "engagement_rate": 72.73,
+        "favorites": 36.36,
+        "illustration_relevance": 91.0,
+        "likes": 36.36,
+        "recency": 93.33
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "watch",
+      "hotspot_score": 56.62,
+      "post_id": "XHS-002",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "watch",
+      "components": {
+        "comments": 27.27,
+        "engagement_rate": 100.0,
+        "favorites": 27.27,
+        "illustration_relevance": 93.0,
+        "likes": 9.09,
+        "recency": 93.33
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "watch",
+      "hotspot_score": 54.3,
+      "post_id": "XHS-012",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "watch",
+      "components": {
+        "comments": 36.36,
+        "engagement_rate": 45.45,
+        "favorites": 18.18,
+        "illustration_relevance": 88.0,
+        "likes": 54.55,
+        "recency": 90.0
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "watch",
+      "hotspot_score": 52.51,
+      "post_id": "XHS-003",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "normal",
+      "components": {
+        "comments": 0.0,
+        "engagement_rate": 54.55,
+        "favorites": 9.09,
+        "illustration_relevance": 84.0,
+        "likes": 0.0,
+        "recency": 80.0
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "normal",
+      "hotspot_score": 35.25,
+      "post_id": "XHS-008",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    {
+      "business_status": "normal",
+      "components": {
+        "comments": 9.09,
+        "engagement_rate": 27.27,
+        "favorites": 0.0,
+        "illustration_relevance": 86.0,
+        "likes": 18.18,
+        "recency": 93.33
+      },
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "hotspot_level": "normal",
+      "hotspot_score": 35.17,
+      "post_id": "XHS-006",
+      "rule_version": "business-rules-v1.0.0"
+    }
+  ],
+  "opportunity_analysis": {
+    "opportunities": [
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-003",
+        "category": "头像",
+        "components": {
+          "capacity_fit": 100.0,
+          "competition_attractiveness": 76.67,
+          "demand_signal": 66.88,
+          "evidence_completeness": 100.0,
+          "price_fit": 63.64,
+          "profile_match": 85.0,
+          "trend_relevance": 71.95
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-003"
+          ],
+          "trends": [
+            "XHS-001",
+            "XHS-002",
+            "XHS-005",
+            "XHS-009"
+          ]
+        },
+        "listing_name": "宠物拟人头像",
+        "missing_information": [],
+        "negative_factors": [],
+        "opportunity_score": 79.29,
+        "positive_factors": [
+          "capacity_fit",
+          "competition_attractiveness",
+          "evidence_completeness",
+          "profile_match",
+          "trend_relevance"
+        ],
+        "recommendation_level": "recommended",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-002",
+        "category": "头像",
+        "components": {
+          "capacity_fit": 100.0,
+          "competition_attractiveness": 70.0,
+          "demand_signal": 79.38,
+          "evidence_completeness": 100.0,
+          "price_fit": 50.0,
+          "profile_match": 85.0,
+          "trend_relevance": 71.95
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-002"
+          ],
+          "trends": [
+            "XHS-002",
+            "XHS-005",
+            "XHS-009"
+          ]
+        },
+        "listing_name": "双人情侣头像",
+        "missing_information": [],
+        "negative_factors": [],
+        "opportunity_score": 78.45,
+        "positive_factors": [
+          "capacity_fit",
+          "competition_attractiveness",
+          "demand_signal",
+          "evidence_completeness",
+          "profile_match",
+          "trend_relevance"
+        ],
+        "recommendation_level": "recommended",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-009",
+        "category": "表情包",
+        "components": {
+          "capacity_fit": 85.71,
+          "competition_attractiveness": 56.67,
+          "demand_signal": 66.25,
+          "evidence_completeness": 100.0,
+          "price_fit": 100.0,
+          "profile_match": 85.0,
+          "trend_relevance": 30.25
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-009"
+          ],
+          "trends": [
+            "XHS-006"
+          ]
+        },
+        "listing_name": "表情包九宫格",
+        "missing_information": [],
+        "negative_factors": [
+          "trend_relevance"
+        ],
+        "opportunity_score": 74.25,
+        "positive_factors": [
+          "capacity_fit",
+          "evidence_completeness",
+          "price_fit",
+          "profile_match"
+        ],
+        "recommendation_level": "test",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-001",
+        "category": "头像",
+        "components": {
+          "capacity_fit": 100.0,
+          "competition_attractiveness": 60.0,
+          "demand_signal": 48.75,
+          "evidence_completeness": 100.0,
+          "price_fit": 36.36,
+          "profile_match": 85.0,
+          "trend_relevance": 71.95
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-001"
+          ],
+          "trends": [
+            "XHS-002",
+            "XHS-005",
+            "XHS-009"
+          ]
+        },
+        "listing_name": "Q版头像",
+        "missing_information": [],
+        "negative_factors": [
+          "price_fit"
+        ],
+        "opportunity_score": 70.81,
+        "positive_factors": [
+          "capacity_fit",
+          "evidence_completeness",
+          "profile_match",
+          "trend_relevance"
+        ],
+        "recommendation_level": "test",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.1765,
+          "competition_attractiveness": 0.1176,
+          "evidence_completeness": 0.0588,
+          "price_fit": 0.1765,
+          "profile_match": 0.2941,
+          "trend_relevance": 0.1765
+        },
+        "candidate_id": "MKT-010",
+        "category": "头像",
+        "components": {
+          "capacity_fit": 100.0,
+          "competition_attractiveness": 50.0,
+          "demand_signal": null,
+          "evidence_completeness": 66.67,
+          "price_fit": 23.53,
+          "profile_match": 85.0,
+          "trend_relevance": 71.95
+        },
+        "confidence": "medium",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-010"
+          ],
+          "trends": [
+            "XHS-002",
+            "XHS-005",
+            "XHS-009"
+          ]
+        },
+        "listing_name": "古风半身像",
+        "missing_information": [
+          "demand_signal"
+        ],
+        "negative_factors": [
+          "price_fit"
+        ],
+        "opportunity_score": 69.3,
+        "positive_factors": [
+          "capacity_fit",
+          "profile_match",
+          "trend_relevance"
+        ],
+        "recommendation_level": "test",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-012",
+        "category": "像素画",
+        "components": {
+          "capacity_fit": 100.0,
+          "competition_attractiveness": 66.67,
+          "demand_signal": 45.63,
+          "evidence_completeness": 100.0,
+          "price_fit": 9.09,
+          "profile_match": 0.0,
+          "trend_relevance": 71.95
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-012"
+          ],
+          "trends": [
+            "XHS-009"
+          ]
+        },
+        "listing_name": "像素风角色小人",
+        "missing_information": [],
+        "negative_factors": [
+          "price_fit",
+          "profile_match"
+        ],
+        "opportunity_score": 45.67,
+        "positive_factors": [
+          "capacity_fit",
+          "evidence_completeness",
+          "trend_relevance"
+        ],
+        "recommendation_level": "observe",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-007",
+        "category": "内容配图",
+        "components": {
+          "capacity_fit": 75.0,
+          "competition_attractiveness": 63.33,
+          "demand_signal": 50.0,
+          "evidence_completeness": 100.0,
+          "price_fit": 77.78,
+          "profile_match": 0.0,
+          "trend_relevance": 0.0
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-007"
+          ],
+          "trends": []
+        },
+        "listing_name": "小红书配图套装",
+        "missing_information": [],
+        "negative_factors": [
+          "profile_match",
+          "trend_relevance"
+        ],
+        "opportunity_score": 41.75,
+        "positive_factors": [
+          "capacity_fit",
+          "evidence_completeness",
+          "price_fit"
+        ],
+        "recommendation_level": "observe",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-008",
+        "category": "绘本",
+        "components": {
+          "capacity_fit": 60.0,
+          "competition_attractiveness": 46.67,
+          "demand_signal": 29.38,
+          "evidence_completeness": 100.0,
+          "price_fit": 92.31,
+          "profile_match": 0.0,
+          "trend_relevance": 29.61
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-008"
+          ],
+          "trends": [
+            "XHS-008"
+          ]
+        },
+        "listing_name": "儿童绘本单页",
+        "missing_information": [],
+        "negative_factors": [
+          "demand_signal",
+          "profile_match",
+          "trend_relevance"
+        ],
+        "opportunity_score": 41.36,
+        "positive_factors": [
+          "evidence_completeness",
+          "price_fit"
+        ],
+        "recommendation_level": "observe",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-004",
+        "category": "角色设计",
+        "components": {
+          "capacity_fit": 50.0,
+          "competition_attractiveness": 20.0,
+          "demand_signal": 37.5,
+          "evidence_completeness": 100.0,
+          "price_fit": 75.0,
+          "profile_match": 0.0,
+          "trend_relevance": 51.52
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-004"
+          ],
+          "trends": [
+            "XHS-002",
+            "XHS-003",
+            "XHS-008"
+          ]
+        },
+        "listing_name": "OC角色立绘",
+        "missing_information": [],
+        "negative_factors": [
+          "competition_attractiveness",
+          "demand_signal",
+          "profile_match"
+        ],
+        "opportunity_score": 39.1,
+        "positive_factors": [
+          "evidence_completeness",
+          "price_fit"
+        ],
+        "recommendation_level": "not_recommended",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-011",
+        "category": "商业插画",
+        "components": {
+          "capacity_fit": 40.0,
+          "competition_attractiveness": 73.33,
+          "demand_signal": 10.63,
+          "evidence_completeness": 100.0,
+          "price_fit": 62.22,
+          "profile_match": 0.0,
+          "trend_relevance": 50.21
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-011"
+          ],
+          "trends": [
+            "XHS-011"
+          ]
+        },
+        "listing_name": "包装食品插画",
+        "missing_information": [],
+        "negative_factors": [
+          "demand_signal",
+          "profile_match"
+        ],
+        "opportunity_score": 36.79,
+        "positive_factors": [
+          "competition_attractiveness",
+          "evidence_completeness"
+        ],
+        "recommendation_level": "not_recommended",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-006",
+        "category": "商业插画",
+        "components": {
+          "capacity_fit": 40.0,
+          "competition_attractiveness": 53.33,
+          "demand_signal": 13.75,
+          "evidence_completeness": 100.0,
+          "price_fit": 60.0,
+          "profile_match": 0.0,
+          "trend_relevance": 50.21
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-006"
+          ],
+          "trends": [
+            "XHS-011"
+          ]
+        },
+        "listing_name": "商业海报插画",
+        "missing_information": [],
+        "negative_factors": [
+          "demand_signal",
+          "profile_match"
+        ],
+        "opportunity_score": 34.93,
+        "positive_factors": [
+          "evidence_completeness"
+        ],
+        "recommendation_level": "not_recommended",
+        "rule_version": "business-rules-v1.0.0"
+      },
+      {
+        "applied_weights": {
+          "capacity_fit": 0.15,
+          "competition_attractiveness": 0.1,
+          "demand_signal": 0.15,
+          "evidence_completeness": 0.05,
+          "price_fit": 0.15,
+          "profile_match": 0.25,
+          "trend_relevance": 0.15
+        },
+        "candidate_id": "MKT-005",
+        "category": "角色设计",
+        "components": {
+          "capacity_fit": 50.0,
+          "competition_attractiveness": 36.67,
+          "demand_signal": 20.63,
+          "evidence_completeness": 100.0,
+          "price_fit": 57.14,
+          "profile_match": 0.0,
+          "trend_relevance": 29.61
+        },
+        "confidence": "high",
+        "evidence_as_of": "2026-09-01T00:00:00+08:00",
+        "evidence_ids": {
+          "market": [
+            "MKT-005"
+          ],
+          "trends": [
+            "XHS-008"
+          ]
+        },
+        "listing_name": "Live2D拆分立绘",
+        "missing_information": [],
+        "negative_factors": [
+          "competition_attractiveness",
+          "demand_signal",
+          "profile_match",
+          "trend_relevance"
+        ],
+        "opportunity_score": 32.27,
+        "positive_factors": [
+          "evidence_completeness"
+        ],
+        "recommendation_level": "not_recommended",
+        "rule_version": "business-rules-v1.0.0"
+      }
+    ],
+    "profile_id": "USR-001",
+    "rule_version": "business-rules-v1.0.0",
+    "status": "ok"
+  },
+  "rule_version": "business-rules-v1.0.0"
+}

@@ -1,0 +1,18 @@
+/* Shared product shell. P1 uses a third task rail; P2-P6 remain two-column. */
+.app>.side{grid-column:1}
+.app>.work{grid-column:2!important}
+.app>.rail{grid-column:3!important}
+.app>.side{width:230px;padding:24px 18px 20px;border-color:#ecece8}
+.app>.side>b{padding-left:6px;font-size:16px;line-height:24px;font-weight:500}
+.app>.side nav{gap:6px;margin-top:28px}
+.app>.side nav button{height:44px;border-radius:10px;padding:0 12px;gap:10px;font-size:14px;line-height:20px}
+.app>.side nav button svg{width:18px;height:18px;flex:0 0 18px}
+.app>.side nav button.active{background:#f1f1ee}
+.app>.side .person{border-top:1px solid #ecece8;padding:16px 6px 0}
+.app>.side .person b{font-size:14px;line-height:20px;font-weight:600}
+.app>.side .person small{font-size:12px;line-height:18px}
+.route-profile,.route-market,.route-decision,.route-plan,.route-history{width:100%;max-width:none;margin-left:0;margin-right:0}
+.app:has(.chatPage) .work{padding-top:0;padding-bottom:0}
+@media(min-width:1280px){.app{grid-template-columns:230px minmax(650px,1fr)!important}.app:has(.consolePage){grid-template-columns:230px minmax(650px,1fr) 300px!important}}
+@media(max-width:1279px) and (min-width:1001px){.app{grid-template-columns:230px minmax(0,1fr)!important}.app:has(.consolePage){grid-template-columns:230px minmax(0,1fr) 260px!important}}
+@media(max-width:1000px){.app{grid-template-columns:84px minmax(0,1fr)!important}.app>.side{width:84px}.app>.work{grid-column:2!important}}

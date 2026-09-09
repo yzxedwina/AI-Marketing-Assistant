@@ -1,0 +1,101 @@
+/* P2 User Profile Center — evidence-led, calm and explicit about data sources. */
+.route-profile{max-width:1100px;margin:0 auto;color:#191918}
+.route-profile>.head{min-height:60px;margin-bottom:24px}
+.route-profile>.head h1{font-size:26px;font-weight:550;letter-spacing:-.02em}
+.route-profile>.head p{font-size:14px;margin-top:5px}
+
+.profileEmpty{min-height:calc(100vh - 180px);display:grid;place-items:center;border-top:1px solid #e7e6e1}
+.profileEmpty>div{width:min(520px,90%);text-align:center;padding:48px 28px}
+.profileEmpty svg{width:54px;height:54px;padding:13px;border-radius:50%;background:#eeede8;color:#77766f}
+.profileEmpty h2{font-size:24px;line-height:1.4;margin:20px 0 8px;font-weight:550}
+.profileEmpty p{max-width:500px;margin:0 auto 24px;color:#74736d;font-size:14px;line-height:1.75}
+
+.profileReportTop{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(320px,.85fr);gap:16px;margin-bottom:16px}
+.route-profile .profileAnalysisCard,.route-profile .creatorTypeCard,.route-profile .profileInsightsCard,.route-profile .profilePerformanceCard{border:1px solid #e2e1dc;border-radius:18px;box-shadow:0 2px 8px rgba(25,25,24,.035)}
+.profileAnalysisCard,.creatorTypeCard{min-height:314px;padding:25px 26px}
+.profileCardHeading,.sectionHeadingRow,.profileFormIntro{display:flex;align-items:flex-start;justify-content:space-between;gap:20px}
+.profileCardHeading small,.creatorTypeCard>small{color:#797872;font-size:12px}
+.profileCardHeading h2,.creatorTypeCard h2{font-size:22px;line-height:1.4;margin:8px 0 0;font-weight:600}
+.profileCardHeading .chip,.sectionHeadingRow .chip,.profileFormIntro .chip{margin:0;white-space:nowrap}
+.profileCompleteness{display:grid;grid-template-columns:120px 1fr;gap:26px;align-items:end;margin-top:34px;padding-bottom:24px;border-bottom:1px solid #e7e6e1}
+.profileCompleteness span{display:block;color:#77766f;font-size:13px}
+.profileCompleteness strong{display:block;font-size:38px;line-height:1;margin-top:10px;font-weight:600;font-variant-numeric:tabular-nums}
+.profileProgress{height:8px;border-radius:99px;background:#ededea;overflow:hidden}
+.profileProgress i{display:block;height:100%;border-radius:inherit;background:#c96f4f}
+.profileProgressCopy p{font-size:12px;line-height:1.55;margin:10px 0 0;color:#85847e}
+.profileAttention{padding-top:20px}
+.profileAttention h3{font-size:17px;margin:0 0 7px}
+.profileAttention p{font-size:13px;line-height:1.65;margin:0;color:#70706a}
+.creatorTypeCard{display:flex;flex-direction:column}
+.creatorTypeCard>p{font-size:14px;line-height:1.65;margin:13px 0 20px;color:#66655f}
+.creatorStrength{padding:17px 18px;border-radius:14px;background:#f2f1ed;display:grid;gap:7px;margin-top:auto}
+.creatorStrength b{font-size:13px}
+.creatorStrength span{font-size:13px;line-height:1.6;color:#63625d}
+.creatorTypeCard .creatorBoundary{font-size:12px;margin:15px 0 0;color:#817f79}
+
+.profileInsightsCard,.profilePerformanceCard{padding:24px 26px;margin-bottom:16px}
+.sectionHeadingRow{align-items:center}
+.sectionHeadingRow h2{font-size:20px;line-height:1.4;margin:0}
+.sectionHeadingRow p{font-size:13px;line-height:1.6;margin:5px 0 0;color:#77766f}
+.profileInsightGrid{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:20px}
+.profileInsightItem{min-height:116px;border:1px solid #e3e2dc;border-radius:14px;padding:18px;display:grid;grid-template-columns:10px 1fr;gap:13px}
+.profileInsightItem>i{width:9px;height:9px;border-radius:50%;margin-top:5px;background:#aaa9a3}
+.profileInsightItem.positive>i{background:#7ea087}
+.profileInsightItem.pending>i{background:#c88c68}
+.profileInsightItem h3{font-size:15px;margin:0 0 6px}
+.profileInsightItem p{font-size:13px;line-height:1.6;margin:0;color:#6f6e68}
+.manualMetricsGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;margin-top:20px;background:#e7e6e1;border:1px solid #e7e6e1;border-radius:14px;overflow:hidden}
+.manualMetricsGrid>div{min-height:96px;background:#fbfbf9;padding:18px;display:flex;flex-direction:column;justify-content:space-between}
+.manualMetricsGrid span{font-size:12px;color:#77766f}
+.manualMetricsGrid strong{font-size:22px;font-weight:600;font-variant-numeric:tabular-nums}
+.performanceEmpty{margin-top:20px;padding:25px;border-radius:14px;background:#f5f5f2}
+.performanceEmpty h3{font-size:17px;margin:0 0 7px}
+.performanceEmpty p{font-size:13px;line-height:1.65;margin:0 0 17px;color:#6f6e68}
+.profileUtilityRow{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.profileUtilityRow>button{min-height:76px;border:1px solid #e2e1dc;border-radius:14px;background:#fff;padding:15px 18px;display:grid;grid-template-columns:20px 1fr 18px;align-items:center;gap:12px;text-align:left;color:#373733}
+.profileUtilityRow>button:hover{border-color:#c7a08d;background:#fffaf7}
+.profileUtilityRow>button>span{display:grid;gap:3px}
+.profileUtilityRow b{font-size:14px}
+.profileUtilityRow small{font-size:12px;color:#85847e}
+
+.route-profile>.profileFormCard{padding:26px;border-color:#e2e1dc;border-radius:18px;box-shadow:none}
+.profileFormIntro{align-items:center;margin-bottom:20px}
+.profileFormIntro h2{font-size:20px;margin:0 0 5px}
+.profileFormIntro p{font-size:13px;line-height:1.6;margin:0;color:#74736d}
+.profileFormDivider{height:1px;background:#e7e6e1;margin:30px 0}
+.existingBusinessIntro{padding:2px 0}
+.route-profile .businessToggle{display:flex;align-items:center;gap:9px;min-height:40px;margin:0;padding:0 14px;border:1px solid #deddd7;border-radius:11px;background:#fbfbf9;color:#383733;font-size:13px;white-space:nowrap;cursor:pointer}
+.route-profile .businessToggle input{width:17px;height:17px;margin:0;accent-color:#b96f52;cursor:pointer}
+.existingBusinessEditor{display:grid;gap:14px;margin-top:18px}
+.businessEditorCard{padding:20px;border:1px solid #deddd7;border-radius:16px;background:#f9f9f7}
+.businessEditorHeading{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;padding-bottom:18px;border-bottom:1px solid #e6e5df}
+.businessEditorHeading h3{margin:8px 0 0;font-size:17px;font-weight:600}
+.removeBusinessButton{border:0;background:transparent;color:#98604a;font:inherit;font-size:13px;cursor:pointer;padding:6px 4px}
+.removeBusinessButton:hover{color:#773f2c;text-decoration:underline;text-underline-offset:3px}
+.businessCoreFields{margin-top:20px}
+.route-profile .businessCoreFields .fullField{grid-column:1/-1}
+.route-profile .businessCoreFields textarea{min-height:92px;resize:vertical;border-color:#deddd7;background:#fff}
+.existingBusinessEditor>.light{justify-self:start}
+.platformFormTitle{font-size:15px;margin:24px 0 14px}
+.route-profile .form.two{gap:18px 16px}
+.route-profile .form.two label,.route-profile>.profileFormCard>label{margin:0;font-size:13px}
+.route-profile input,.route-profile select{border-color:#deddd7;background:#fbfbf9}
+.route-profile .inlineNote{margin-top:22px}
+.route-profile>.candidate,.route-profile>.record{padding:20px 22px;border-color:#e7e6e1;border-radius:15px;box-shadow:none}
+.route-profile>.candidate h3,.route-profile>.record h3{font-size:17px;margin:8px 0}
+.route-profile>.candidate p,.route-profile>.record p{font-size:12px;margin:0;color:#77766f}
+.route-profile>.candidate:first-of-type{border-top:3px solid #c96f4f}
+.route-profile .table{overflow:hidden;border-radius:12px}
+.route-profile .table>*{padding:16px 12px}
+
+@media(max-width:900px){
+  .profileReportTop,.profileInsightGrid{grid-template-columns:1fr}
+  .manualMetricsGrid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:720px){
+  .profileEmpty{min-height:calc(100vh - 230px)}
+  .profileCompleteness{grid-template-columns:1fr;gap:16px}
+  .sectionHeadingRow,.profileFormIntro{align-items:flex-start;flex-direction:column}
+  .profileUtilityRow,.manualMetricsGrid{grid-template-columns:1fr}
+  .route-profile .businessCoreFields .fullField{grid-column:auto}
+}

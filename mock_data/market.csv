@@ -1,0 +1,13 @@
+source_platform,listing_id,source_url,listing_name,category,tags,price_min_cny,price_max_cny,service_description,delivery_days,revision_count,favorite_count,sales_count,same_category_count,listed_at,source_type,is_mock,collected_at,valid_until,availability_status,quality_status,pipeline_version
+mihoyo,MKT-001,mock://market/MKT-001,Q版头像,头像,"Q版,二次元",80,160,单人头像，含一次修改,3,1,42,18,12,2026-08-29,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+mihoyo,MKT-002,mock://market/MKT-002,双人情侣头像,头像,"情侣,双人",180,320,双人头像，适合纪念日,5,2,65,31,9,2026-08-26,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+huajia,MKT-003,mock://market/MKT-003,宠物拟人头像,头像,"宠物,拟人",120,260,宠物照片转插画,4,1,53,27,7,2026-08-31,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+mihoyo,MKT-004,mock://market/MKT-004,OC角色立绘,角色设计,"OC,立绘",600,1200,全身立绘，含设定沟通,14,2,28,16,24,2026-08-20,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+huajia,MKT-005,mock://market/MKT-005,Live2D拆分立绘,角色设计,"Live2D,拆分",1800,3500,分层文件，不含建模,30,3,17,8,19,2026-08-18,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+mihoyo,MKT-006,mock://market/MKT-006,商业海报插画,商业插画,"海报,品牌",1500,3000,商用授权另议,21,2,12,5,14,2026-08-22,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+huajia,MKT-007,mock://market/MKT-007,小红书配图套装,内容配图,"小红书,配图",500,900,6张统一风格配图,10,2,36,22,11,2026-08-30,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+mihoyo,MKT-008,mock://market/MKT-008,儿童绘本单页,绘本,"儿童,绘本",350,650,单页含草图确认,7,2,21,13,16,2026-08-24,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+huajia,MKT-009,mock://market/MKT-009,表情包九宫格,表情包,"微信,九宫格",300,600,9个表情动作,8,2,48,29,13,2026-08-28,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+mihoyo,MKT-010,mock://market/MKT-010,古风半身像,头像,"古风,半身",220,420,古风服饰细化,6,2,,,15,2026-08-25,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,partial,mock-v1
+huajia,MKT-011,mock://market/MKT-011,包装食品插画,商业插画,"包装,食品",2000,4500,商用包装视觉,28,3,9,4,8,2026-07-15,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+mihoyo,MKT-012,mock://market/MKT-012,像素风角色小人,像素画,"像素,游戏",260,520,静态角色小人,6,1,33,20,10,2026-08-31,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1

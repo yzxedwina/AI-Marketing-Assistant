@@ -1,0 +1,14 @@
+/* Shared visual scale for P2–P6, matched to the P1 creator console. */
+.app:not(:has(.rail)){grid-template-columns:230px minmax(650px,1fr)}
+.route-profile,.route-market,.route-decision,.route-plan,.route-history{color:#181818}
+.route-profile>.head,.route-market>.head,.route-decision>.head,.route-plan>.head,.route-history>.head{min-height:44px;margin-bottom:22px}
+.route-profile>.head h1,.route-market>.head h1,.route-decision>.head h1,.route-plan>.head h1,.route-history>.head h1{font-size:26px;line-height:34px;font-weight:550;letter-spacing:-.02em}
+.route-profile>.head p,.route-market>.head p,.route-decision>.head p,.route-plan>.head p,.route-history>.head p{font-size:14px;line-height:22px;margin:4px 0 0;color:#666}
+.route-profile .btn,.route-market .btn,.route-decision .btn,.route-plan .btn,.route-history .btn{min-height:44px;padding:0 18px;font-size:14px;border-radius:10px}
+.route-profile .card,.route-market .card,.route-decision .card,.route-plan .card,.route-history .card{border-radius:16px}
+.route-profile .card>small,.route-market .card>small,.route-decision .card>small,.route-plan .card>small,.route-history .card>small{font-size:12px;line-height:18px}
+.route-profile .card>p,.route-market .card>p,.route-decision .card>p,.route-plan .card>p,.route-history .card>p{font-size:14px;line-height:22px}
+.route-profile h2,.route-market h2,.route-decision h2,.route-plan h2,.route-history h2{text-wrap:balance}
+@media(max-width:1279px) and (min-width:1001px){.app:not(:has(.rail)){grid-template-columns:230px minmax(0,1fr)}}
+@media(max-width:1000px){.app:not(:has(.rail)){grid-template-columns:84px minmax(0,1fr)}}
+@media(max-width:720px){.app:not(:has(.rail)){display:block;height:auto;min-height:100vh;overflow:visible}.route-profile>.head,.route-market>.head,.route-decision>.head,.route-plan>.head,.route-history>.head{gap:14px}.route-profile>.head h1,.route-market>.head h1,.route-decision>.head h1,.route-plan>.head h1,.route-history>.head h1{font-size:24px;line-height:32px}}

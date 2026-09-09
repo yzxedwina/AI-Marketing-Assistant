@@ -1,0 +1,9 @@
+{
+  "dataset": "reference_cases",
+  "schema_version": "1.0.0",
+  "records": [
+    {"knowledge_id":"CASE-001","title":"传统水彩带场景龙设插图","content":"已授权作品样本。题材为带场景龙设，画风为水彩与平涂，约稿用途，完成周期约一周。存在两张同类作品且用户愿意继续承接，可作为能力匹配证据；没有传播和成交结果，不能称为优秀营销案例。","case_type":"authorized_portfolio_reference","business_type":"带场景手绘插图","medium":"traditional","result_status":"business_performance_unverified","status":"active","source_id":"SRC-USER-001"},
+    {"knowledge_id":"CASE-002","title":"传统水彩小动物双面挂件","content":"已授权作品样本。客户提供花枝鼠照片，交付为双面小动物挂件，画风为水彩与平涂，完成周期约三天。可用于说明宠物定制与实体挂件能力；没有曝光、咨询、复购等结果，不能推断市场效果。","case_type":"authorized_portfolio_reference","business_type":"动物大头挂件","medium":"traditional","result_status":"business_performance_unverified","status":"active","source_id":"SRC-USER-001"},
+    {"knowledge_id":"CASE-003","title":"传统水彩宠物纪念插图摆件","content":"已授权作品样本。题材为黑白狗狗纪念插图，交付为单面摆件，画风为水彩与平涂，完成周期约三天。只能作为已做过的能力样本；纪念题材是否作为重点业务仍需由用户明确确认，且没有营销效果证据。","case_type":"authorized_portfolio_reference","business_type":"宠物纪念插图摆件","medium":"traditional","result_status":"business_performance_unverified","status":"active","source_id":"SRC-USER-001"}
+  ]
+}

@@ -1,0 +1,180 @@
+{
+  "input": {
+    "allowed_evidence_ids": [
+      "MKT-003",
+      "XHS-001",
+      "XHS-002",
+      "XHS-005",
+      "XHS-009"
+    ],
+    "candidate_id": "MKT-003",
+    "constraints": {
+      "effect_promises_forbidden": true,
+      "external_actions_forbidden": true,
+      "numbers_in_generated_text_forbidden": true
+    },
+    "contract_version": "1.0.0",
+    "evidence": {
+      "market": [
+        "MKT-003"
+      ],
+      "trends": [
+        "XHS-001",
+        "XHS-002",
+        "XHS-005",
+        "XHS-009"
+      ]
+    },
+    "input_status": "ok",
+    "locked_facts": {
+      "components": {
+        "capacity_fit": 100.0,
+        "competition_attractiveness": 76.67,
+        "demand_signal": 66.88,
+        "evidence_completeness": 100.0,
+        "price_fit": 63.64,
+        "profile_match": 85.0,
+        "trend_relevance": 71.95
+      },
+      "confidence": "high",
+      "evidence_as_of": "2026-09-01T00:00:00+08:00",
+      "opportunity_score": 79.29,
+      "recommendation_level": "recommended",
+      "rule_version": "business-rules-v1.0.0"
+    },
+    "profile_id": "USR-001",
+    "rule_trace": {
+      "missing_information": [],
+      "negative_factors": [],
+      "positive_factors": [
+        "capacity_fit",
+        "competition_attractiveness",
+        "evidence_completeness",
+        "profile_match",
+        "trend_relevance"
+      ]
+    },
+    "task": "opportunity_explanation"
+  },
+  "instructions_file": "config/prompts/opportunity_explanation_system.md",
+  "store": false,
+  "text": {
+    "format": {
+      "name": "opportunity_explanation",
+      "schema": {
+        "$defs": {
+          "reason": {
+            "additionalProperties": false,
+            "properties": {
+              "evidence_ids": {
+                "items": {
+                  "minLength": 1,
+                  "type": "string"
+                },
+                "minItems": 1,
+                "type": "array",
+                "uniqueItems": true
+              },
+              "text": {
+                "maxLength": 160,
+                "minLength": 1,
+                "pattern": "^[^0-9０-９]*$",
+                "type": "string"
+              }
+            },
+            "required": [
+              "text",
+              "evidence_ids"
+            ],
+            "type": "object"
+          }
+        },
+        "$schema": "https://json-schema.org/draft/2020-12/schema",
+        "additionalProperties": false,
+        "properties": {
+          "candidate_id": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "citations": {
+            "items": {
+              "minLength": 1,
+              "type": "string"
+            },
+            "type": "array",
+            "uniqueItems": true
+          },
+          "counter_factors": {
+            "items": {
+              "$ref": "#/$defs/reason"
+            },
+            "maxItems": 5,
+            "type": "array"
+          },
+          "missing_information": {
+            "items": {
+              "maxLength": 100,
+              "pattern": "^[^0-9０-９]*$",
+              "type": "string"
+            },
+            "maxItems": 5,
+            "type": "array"
+          },
+          "next_actions": {
+            "items": {
+              "maxLength": 120,
+              "pattern": "^[^0-9０-９]*$",
+              "type": "string"
+            },
+            "maxItems": 3,
+            "minItems": 1,
+            "type": "array"
+          },
+          "schema_version": {
+            "const": "1.0.0"
+          },
+          "status": {
+            "enum": [
+              "ready",
+              "insufficient_evidence",
+              "conflict",
+              "blocked"
+            ]
+          },
+          "summary": {
+            "maxLength": 180,
+            "minLength": 1,
+            "pattern": "^[^0-9０-９]*$",
+            "type": "string"
+          },
+          "supporting_reasons": {
+            "items": {
+              "$ref": "#/$defs/reason"
+            },
+            "maxItems": 5,
+            "type": "array"
+          },
+          "task": {
+            "const": "opportunity_explanation"
+          }
+        },
+        "required": [
+          "schema_version",
+          "task",
+          "status",
+          "candidate_id",
+          "summary",
+          "supporting_reasons",
+          "counter_factors",
+          "missing_information",
+          "next_actions",
+          "citations"
+        ],
+        "title": "OpportunityExplanation",
+        "type": "object"
+      },
+      "strict": true,
+      "type": "json_schema"
+    }
+  }
+}

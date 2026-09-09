@@ -1,0 +1,33 @@
+services:
+  - type: web
+    name: ai-marketing-assistant
+    runtime: docker
+    plan: 0.5c-512mb
+    region: singapore
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    healthCheckPath: /health
+    autoDeployTrigger: commit
+    envVars:
+      - key: APP_ENV
+        value: production
+      - key: DATABASE_PATH
+        value: /var/data/ama.sqlite3
+      - key: PLAYWRIGHT_BROWSERS_PATH
+        value: /ms-playwright
+      - key: MARKET_DATA_DIR
+        value: /var/data/market
+      - key: MARKET_REFRESH_COOLDOWN_SECONDS
+        value: "1800"
+      - key: DEEPSEEK_BASE_URL
+        value: https://api.deepseek.com
+      - key: DEEPSEEK_MODEL
+        value: deepseek-chat
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: PRESEEDED_ACCOUNTS_JSON
+        sync: false
+    disk:
+      name: ama-data
+      mountPath: /var/data
+      sizeGB: 1

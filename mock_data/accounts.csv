@@ -1,0 +1,6 @@
+profile_id,scenario,current_goal,style_topics,accepted_business,excluded_business,target_price_min_cny,target_price_max_cny,weekly_capacity_hours,weekly_marketing_hours,account_stage,target_audience,followers,avg_likes,profile_version,profile_confirmed,profile_confirmed_at,source_type,is_mock,collected_at,valid_until,availability_status,quality_status,pipeline_version
+USR-001,starter_avatar,首次接稿,"Q版,二次元","头像,表情包",成人内容,80,300,12,4,new,二次元学生与年轻职场人,,,1,true,2026-09-01T09:00:00+08:00,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+USR-002,growth_pet,新增品类,"治愈,扁平,动物","宠物头像,内容配图",复杂场景,150,800,18,6,growth,养宠女性,8200,460,2,true,2026-09-01T09:00:00+08:00,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+USR-003,high_value_commercial,提高客单价,"复古,食品,平面","商业插画,包装",低价头像,1800,5000,25,3,stable,消费品牌设计团队,15600,720,3,true,2026-09-01T09:00:00+08:00,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+USR-004,low_capacity,调整橱窗,"古风,细化","头像,半身像","急单,商用买断",250,600,5,2,starter,古风爱好者,950,88,1,true,2026-09-01T09:00:00+08:00,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1
+USR-005,missing_profile,新增品类,,,,,,,4,starter,,,,1,false,,mock,true,2026-09-01T00:00:00+08:00,2026-09-30T23:59:59+08:00,available,complete,mock-v1

@@ -1,0 +1,20 @@
+{
+  "dataset": "industry_terms",
+  "schema_version": "1.0.0",
+  "records": [
+    {"knowledge_id":"TERM-001","term":"OC","aliases":["原创角色","original character"],"definition":"由创作者或委托人设定的原创角色。约稿时需要进一步确认角色设定、使用范围和交付规格。","category":"角色与题材","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-002","term":"兽设","aliases":["动物设定","furry OC","兽人角色设定"],"definition":"以动物或拟人动物为基础的角色设定。具体是否包含拟人、服装、世界观或设定图，需要在委托范围中单独确认。","category":"角色与题材","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-003","term":"设子","aliases":["角色设定","自设"],"definition":"圈内对角色设定或自有角色的口语称呼，实际含义可能随社群变化。","category":"行业黑话","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-004","term":"大头","aliases":["大头图","头像构图"],"definition":"以头部或头肩为主体的构图范围，不等于实体挂件；下单前仍需确认交付载体。","category":"构图规格","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-005","term":"带场景插图","aliases":["场景插画","带背景插图"],"definition":"角色与环境共同构成画面的插图，工作量通常受角色数量、背景复杂度、尺寸和修改范围影响。","category":"产品形态","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-006","term":"平涂","aliases":["色块上色"],"definition":"以相对明确的色块组织画面、弱化连续明暗过渡的上色方式。它是视觉表现方式，不代表数字或传统媒介。","category":"画风与技法","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-007","term":"水彩","aliases":["水彩画","透明水彩"],"definition":"使用水与水彩颜料形成透明、叠色或水痕效果的绘画方式；在本项目中还需区分传统纸本水彩与数字仿水彩。","category":"画风与技法","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-008","term":"商用","aliases":["商业用途","商业授权"],"definition":"作品将用于商业经营、宣传、商品或其他营利用途。授权范围、期限、地域、媒介和署名方式需要单独约定。","category":"授权与交易","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-009","term":"买断","aliases":["权利买断","全版权买断"],"definition":"行业交流中常指委托方要求取得比普通使用许可更广的权利，但不是一个足够精确的法律范围；必须在合同中写明转让或许可的具体权利。","category":"授权与交易","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-010","term":"加急","aliases":["急单","插队单"],"definition":"要求压缩正常排期或优先交付的委托，需要确认可行性、交付节点和附加条件。","category":"排期与交付","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-011","term":"排单","aliases":["排期","档期"],"definition":"按当前订单、产能和交付时间安排制作顺序。排单状态不能直接等同于已成交数量。","category":"排期与交付","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-012","term":"橱窗","aliases":["约稿橱窗","服务橱窗"],"definition":"在约稿平台中展示服务方向、示例、价格或交付说明的业务入口；具体字段和交易规则以平台当前页面为准。","category":"平台经营","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-013","term":"企划","aliases":["征稿企划","约稿需求"],"definition":"由需求方发布的创作需求或合作计划。企划数量是市场活动信号，不能单独证明某品类的稳定需求。","category":"平台经营","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"},
+    {"knowledge_id":"TERM-014","term":"交付节点","aliases":["阶段确认","过程确认"],"definition":"草图、线稿、上色等制作阶段的确认点。修改次数应按节点和修改范围约定，不能只写一个总次数。","category":"排期与交付","status":"candidate_needs_user_confirmation","source_id":"SRC-USER-001"}
+  ]
+}

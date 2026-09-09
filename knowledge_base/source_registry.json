@@ -1,0 +1,46 @@
+{
+  "registry_version": "1.0.0",
+  "updated_at": "2026-09-07",
+  "sources": [
+    {
+      "source_id": "SRC-USER-001",
+      "name": "用户提供的插画行业知识与作品资料",
+      "source_type": "user_provided",
+      "authority": "user_confirmed_for_own_business",
+      "owner": "USR-EDWINA-001",
+      "status": "active",
+      "allowed_uses": ["demo_retrieval", "profile_assistance", "answer_drafting"],
+      "notes": "行业通用定义仍需用户逐条确认；作品资料已授权用于 Demo。"
+    },
+    {
+      "source_id": "SRC-HJ-PUBLIC-001",
+      "name": "画加公开画师与橱窗页面",
+      "source_type": "official_platform_page",
+      "authority": "official",
+      "url": "https://huajia.163.com/main/goods",
+      "status": "needs_manual_review",
+      "collected_at": "2026-09-08",
+      "notes": "已验证无需登录可读取公开画师、橱窗列表与详情字段；这不等同于平台对批量采集、复用或长期保存作出授权，具体规则仍需人工核对。"
+    },
+    {
+      "source_id": "SRC-XHS-DEV-001",
+      "name": "小红书小程序开放平台第三方平台开发者服务协议",
+      "source_type": "official_platform_rule",
+      "authority": "official",
+      "url": "https://miniapp.xiaohongshu.com/doc/DC430242",
+      "status": "active_for_stated_scope",
+      "collected_at": "2026-09-07",
+      "notes": "适用范围是小程序第三方平台开发者，不等同于普通笔记社区规范。"
+    },
+    {
+      "source_id": "SRC-XHS-SERVICE-001",
+      "name": "小红书小程序服务商管理规范",
+      "source_type": "official_platform_rule",
+      "authority": "official",
+      "url": "https://miniapp.xiaohongshu.com/doc/DC368318",
+      "status": "active_for_stated_scope",
+      "collected_at": "2026-09-07",
+      "notes": "仅用于数据授权、接口使用和账号安全边界，不外推为普通笔记分发规则。"
+    }
+  ]
+}

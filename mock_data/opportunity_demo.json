@@ -1,0 +1,97 @@
+{
+  "dataset": "opportunity_demo",
+  "schema_version": "1.0.0",
+  "data_mode": "mock",
+  "notice": "以下市场与趋势数值仅用于验证 Opportunity Score 计算，不代表真实平台表现。",
+  "market": [
+    {
+      "source_platform": "huajia",
+      "listing_id": "HJA-DEMO-001",
+      "listing_name": "动物大头手绘挂件",
+      "category": "动物大头挂件",
+      "tags": "宠物,动物大头挂件,水彩,传统手绘",
+      "medium": "traditional",
+      "price_min_cny": 65,
+      "price_max_cny": 120,
+      "delivery_days": 3,
+      "favorite_count": 56,
+      "sales_count": 25,
+      "same_category_count": 9,
+      "collected_at": "2026-09-07T12:00:00+08:00",
+      "is_mock": true
+    },
+    {
+      "source_platform": "huajia",
+      "listing_id": "HJA-DEMO-002",
+      "listing_name": "宠物纪念场景插画",
+      "category": "带场景手绘插图",
+      "tags": "宠物,宠物纪念,场景插画,水彩",
+      "medium": "traditional",
+      "price_min_cny": 219,
+      "price_max_cny": 600,
+      "delivery_days": 7,
+      "favorite_count": 39,
+      "sales_count": 13,
+      "same_category_count": 14,
+      "collected_at": "2026-09-07T12:00:00+08:00",
+      "is_mock": true
+    },
+    {
+      "source_platform": "huajia",
+      "listing_id": "HJA-DEMO-003",
+      "listing_name": "兽设场景手绘插图",
+      "category": "带场景手绘插图",
+      "tags": "兽设,OC,场景插画,传统手绘",
+      "medium": "traditional",
+      "price_min_cny": 350,
+      "price_max_cny": 700,
+      "delivery_days": 7,
+      "favorite_count": null,
+      "sales_count": null,
+      "same_category_count": 18,
+      "collected_at": "2026-09-07T12:00:00+08:00",
+      "is_mock": true
+    }
+  ],
+  "trends": [
+    {
+      "post_id": "XHS-DEMO-001",
+      "title": "宠物手绘挂件制作过程",
+      "topic_tags": "宠物,动物大头挂件,水彩,手作",
+      "like_count": 4200,
+      "favorite_count": 3100,
+      "comment_count": 238,
+      "author_follower_count": 18000,
+      "illustration_relevance": 0.96,
+      "published_at": "2026-09-03T10:00:00+08:00",
+      "interaction_snapshot_at": "2026-09-07T12:00:00+08:00",
+      "is_mock": true
+    },
+    {
+      "post_id": "XHS-DEMO-002",
+      "title": "为离开的宠物画一张纪念插画",
+      "topic_tags": "宠物纪念,宠物插画,水彩,场景插画",
+      "like_count": 3600,
+      "favorite_count": 2950,
+      "comment_count": 316,
+      "author_follower_count": 15000,
+      "illustration_relevance": 0.95,
+      "published_at": "2026-09-02T10:00:00+08:00",
+      "interaction_snapshot_at": "2026-09-07T12:00:00+08:00",
+      "is_mock": true
+    },
+    {
+      "post_id": "XHS-DEMO-003",
+      "title": "兽设 OC 场景委托绘制记录",
+      "topic_tags": "兽设,OC,场景插画,绘画过程",
+      "like_count": 2100,
+      "favorite_count": 1680,
+      "comment_count": 154,
+      "author_follower_count": 12000,
+      "illustration_relevance": 0.93,
+      "published_at": "2026-09-01T10:00:00+08:00",
+      "interaction_snapshot_at": "2026-09-07T12:00:00+08:00",
+      "is_mock": true
+    }
+  ]
+}

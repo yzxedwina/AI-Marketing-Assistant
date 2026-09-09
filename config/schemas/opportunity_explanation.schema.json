@@ -1,0 +1,15 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema","title":"OpportunityExplanation","type":"object","additionalProperties":false,
+  "required":["schema_version","task","status","candidate_id","summary","supporting_reasons","counter_factors","missing_information","next_actions","citations"],
+  "properties":{
+    "schema_version":{"const":"1.0.0"},"task":{"const":"opportunity_explanation"},
+    "status":{"enum":["ready","insufficient_evidence","conflict","blocked"]},"candidate_id":{"type":"string","minLength":1},
+    "summary":{"type":"string","minLength":1,"maxLength":180,"pattern":"^[^0-9０-９]*$"},
+    "supporting_reasons":{"type":"array","maxItems":5,"items":{"$ref":"#/$defs/reason"}},
+    "counter_factors":{"type":"array","maxItems":5,"items":{"$ref":"#/$defs/reason"}},
+    "missing_information":{"type":"array","maxItems":5,"items":{"type":"string","maxLength":100,"pattern":"^[^0-9０-９]*$"}},
+    "next_actions":{"type":"array","minItems":1,"maxItems":3,"items":{"type":"string","maxLength":120,"pattern":"^[^0-9０-９]*$"}},
+    "citations":{"type":"array","uniqueItems":true,"items":{"type":"string","minLength":1}}
+  },
+  "$defs":{"reason":{"type":"object","additionalProperties":false,"required":["text","evidence_ids"],"properties":{"text":{"type":"string","minLength":1,"maxLength":160,"pattern":"^[^0-9０-９]*$"},"evidence_ids":{"type":"array","minItems":1,"uniqueItems":true,"items":{"type":"string","minLength":1}}}}}
+}

@@ -1,0 +1,27 @@
+/* Desktop application shell: only the central workspace scrolls. */
+@media (min-width: 721px) {
+  .app {
+    height: 100vh;
+    min-height: 0;
+    overflow: hidden;
+  }
+
+  .side,
+  .rail,
+  .app:has(.consolePage) .rail {
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+  }
+
+  .work,
+  .app:has(.consolePage) .work {
+    height: 100vh;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    scrollbar-gutter: stable;
+  }
+}

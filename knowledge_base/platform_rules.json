@@ -1,0 +1,10 @@
+{
+  "dataset": "platform_rules",
+  "schema_version": "1.0.0",
+  "records": [
+    {"knowledge_id":"RULE-HJ-001","title":"画加公开页面可访问不等同于获得采集授权","content":"系统已验证画加公开画师、橱窗列表和橱窗详情页无需登录即可访问，但尚未完成人工核对平台关于自动化采集、数据复用与保存期限的具体规则。因此当前只允许低频、小规模 PoC，不得把公开可访问描述为平台授权。","platform":"huajia","scope":"public_artist_and_showcase_pages","authority":"official_page_observed_policy_unverified","status":"needs_manual_review","effective_at":null,"expires_at":null,"source_id":"SRC-HJ-PUBLIC-001"},
+    {"knowledge_id":"RULE-XHS-001","title":"小红书接口与账号能力必须在授权范围内使用","content":"小红书小程序服务商规范禁止未经授权使用客户资产、账号或密码，也禁止违规使用、滥用或售卖平台接口。本项目据此设置最小授权、不得保存账号密码和不得绕过权限的工程边界。","platform":"xiaohongshu","scope":"miniapp_service_provider_and_interface_use","authority":"official","status":"active_for_stated_scope","effective_at":"2024-10-23","expires_at":null,"source_id":"SRC-XHS-SERVICE-001"},
+    {"knowledge_id":"RULE-XHS-002","title":"不得把产品描述成获得小红书背书","content":"小红书开放平台相关规则要求开发者不得误导用户认为产品获得小红书合作、认可或质量背书。本项目展示数据来源时，只能说明来源和授权状态，不能暗示官方合作。","platform":"xiaohongshu","scope":"miniapp_platform_content","authority":"official","status":"active_for_stated_scope","effective_at":null,"expires_at":null,"source_id":"SRC-XHS-DEV-001"},
+    {"knowledge_id":"RULE-XHS-003","title":"发布内容需尊重知识产权与肖像权","content":"小红书小程序开放平台第三方平台开发者协议要求发布信息不侵犯第三方合法权益，包括知识产权和肖像权。本项目生成营销草稿时应提示用户确认作品、角色和客户素材的发布授权。","platform":"xiaohongshu","scope":"miniapp_third_party_developer_content","authority":"official","status":"active_for_stated_scope","effective_at":null,"expires_at":null,"source_id":"SRC-XHS-DEV-001"}
+  ]
+}

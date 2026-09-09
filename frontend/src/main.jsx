@@ -1,0 +1,16 @@
+import React from 'react';
+import {createRoot} from 'react-dom/client';
+import App from './App.jsx?v=20260909-4';
+import './styles.css?v=20260909-4';
+import './a11y.css?v=20260909-4';
+import './enhancements.css?v=20260909-4';
+import './p1-restore.css?v=20260909-4';
+import './fixed-shell.css?v=20260909-4';
+import './p2-profile.css?v=20260909-4';
+import './business-pages.css?v=20260909-4';
+import './p3-market.css?v=20260909-4';
+import './p4-decision.css?v=20260909-4';
+import './p5-plan.css?v=20260909-4';
+import './p6-history.css?v=20260909-4';
+import './unified-workspace.css?v=20260909-4';
+createRoot(document.getElementById('root')).render(<React.StrictMode><App/></React.StrictMode>);

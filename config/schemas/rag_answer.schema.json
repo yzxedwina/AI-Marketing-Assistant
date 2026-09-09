@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "RagAnswer",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "task", "status", "answer", "citations", "missing_information", "confirmation_required"],
+  "properties": {
+    "schema_version": {"const": "1.0.0"},
+    "task": {"const": "illustration_domain_qa"},
+    "status": {"enum": ["ready", "no_answer", "conflict", "blocked"]},
+    "answer": {"type": "string", "maxLength": 800},
+    "citations": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}},
+    "missing_information": {"type": "array", "maxItems": 5, "items": {"type": "string", "maxLength": 120}},
+    "confirmation_required": {"type": "boolean"}
+  }
+}

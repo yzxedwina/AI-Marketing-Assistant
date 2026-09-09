@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "profile_id": "TEMPLATE",
+  "profile_status": "pending_user_confirmation",
+  "confirmed_at": null,
+  "confirmed_fields": [],
+  "display_names": {},
+  "business_goals": {
+    "primary_goal": "",
+    "target_direction": "",
+    "target_customers": [],
+    "excluded_business": []
+  },
+  "creator_capabilities": {
+    "subjects": [],
+    "styles": [],
+    "services": [],
+    "tools": [],
+    "commercial_use": null,
+    "buyout": null,
+    "rush_order": null,
+    "revision_supported": null,
+    "revision_policy": null
+  },
+  "pricing_and_capacity": {
+    "weekly_commission_hours": 0,
+    "weekly_marketing_hours": 0,
+    "products": []
+  },
+  "portfolio_summary": {
+    "authorized_for_demo": false,
+    "sample_count": 0,
+    "commission_sample_count": 0,
+    "willing_to_repeat_count": 0,
+    "observed_subjects": [],
+    "observed_styles": [],
+    "observed_price_min_cny": null,
+    "observed_price_max_cny": null,
+    "observed_delivery_days_min": null,
+    "observed_delivery_days_max": null
+  },
+  "platform_facts": {},
+  "candidate_inferences_requiring_confirmation": [],
+  "missing_information": [
+    "价格、产能及真实平台表现需由用户补充"
+  ]
+}
